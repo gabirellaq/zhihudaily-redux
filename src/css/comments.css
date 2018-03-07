@@ -1,0 +1,39 @@
+.comments-box {
+    background: #fff;
+    
+}
+.comments-box .title {
+    border-bottom: 1px solid #eee;
+    padding:.4rem;
+    margin: 0;
+    font-size: .4rem;
+    font-weight: normal;
+}
+.comments-box > ul {
+    padding: .4rem;
+}
+.comments-box > ul > li {
+    border-bottom: 1px solid #eee;
+    padding:.2rem;
+}
+.comments-box > ul > li .com-he{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.comments-box > ul > li h2{
+    margin: 0;
+}
+.comments-box > ul > li .likesNum {
+    color: #999;
+}
+.comments-box > ul > li .body,
+.comments-box > ul > li .date {
+    font-size: .35rem;
+    margin-left: .4rem;
+}
+
+.comments-box > ul > li .date {
+    font-size:0.2rem;
+    color:#999;
+}
