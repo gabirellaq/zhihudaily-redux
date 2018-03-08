@@ -1,6 +1,8 @@
 import React from 'react';
 import { getNewsLatestData } from '../redux/action';
 import { connect } from 'react-redux';
+import HeaderIndex from '../components/HeaderIndex';
+import Sidebar from '../components/Sidebar';
 import Slider from '../components/Slider';
 import ListItem from '../components/ListItem';
 
@@ -14,6 +16,8 @@ class List extends React.Component {
         let { news_latest, top_stories } = this.props;
         return(
             <div className="list-wrap">
+                <HeaderIndex /> 
+                <Sidebar />
                 <Slider slider={top_stories}></Slider>
                 <ul>
                     {news_latest.map(subitem =>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import filter from '../util/filter.js';
 import '../css/listItem.css';
 
 class ListItem extends React.Component {

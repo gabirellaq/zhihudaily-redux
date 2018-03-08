@@ -8,8 +8,7 @@ import 'lib-flexible';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 
-import HeaderIndex from './components/HeaderIndex';
-import Sidebar from './components/Sidebar';
+
 import List from './pages/List';
 import ListTheme from './pages/ListTheme'
 import NewsDetail from './pages/NewsDetail';
@@ -22,9 +21,7 @@ let store = createStore(reducer, applyMiddleware(thunk));
 ReactDOM.render(
 <Provider store={store}>
 <Router>
-    <div>
-        <HeaderIndex /> 
-        <Sidebar />
+    <div>        
         <Route exact path="/" component={List} />
         <Route path="/theme/:id" component={ListTheme} />
         <Route path="/news/:id" component={NewsDetail} />
