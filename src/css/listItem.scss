@@ -1,0 +1,46 @@
+@import "variables";
+.list-item-li {
+    margin:0 $padding-space  $padding-space $padding-space; 
+    &:first-child {
+        padding-top:$padding-space;
+    }
+    a {
+        display: flex;
+        padding:.4rem;
+        background: $white-color;
+        border-radius: .1rem;
+        border: .027rem solid #f2f2f2;
+        border-bottom: .027rem solid $border-color;
+        color: inherit;
+    }
+    .text {
+        flex:1;
+        font-size: $font-title-size;
+        line-height: 1.4;
+        span{
+            display: block;
+        }
+    }
+    .date{
+        color: $font-des-color;
+        font-size: $font-des-size;
+    }
+    .img{
+        margin-left: $padding-space;
+        position:relative;
+        img {
+            width: 2rem;
+            height: 1.867rem;
+            font-size: 0;
+        }
+        .tip {
+            color: $white-color;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            font-size: .267rem;
+            padding: .053rem .107rem;
+            background: rgba($black-color,.5);
+        }
+    }
+}

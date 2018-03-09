@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../css/listItem.css';
+import '../css/listItem.scss';
 
 class ListItem extends React.Component {
     render() {

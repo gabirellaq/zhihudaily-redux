@@ -5,7 +5,7 @@ import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import 'lib-flexible';
-import './index.css';
+import './index.scss';
 import registerServiceWorker from './registerServiceWorker';
 
 

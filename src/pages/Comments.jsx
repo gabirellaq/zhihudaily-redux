@@ -3,7 +3,7 @@ import { getNewsCommentsLongData, getNewsCommentsShortData, getNewsExtraData } f
 import { connect } from 'react-redux';
 import CommentsItem from '../components/CommentsItem';
 import HeaderThird from '../components/HeaderThird';
-import '../css/comments.css';
+import '../css/comments.scss';
 
 class Comments extends React.Component {
     componentDidMount() {

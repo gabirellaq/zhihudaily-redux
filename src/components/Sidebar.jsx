@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { toggleSidebar, getSidebarData } from '../redux/action';
 import { connect } from 'react-redux';
-import '../css/sliderbar.css';
+import '../css/sliderbar.scss';
 
 class Sidebar extends React.Component {
     componentDidMount() {

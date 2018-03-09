@@ -1,0 +1,127 @@
+@import "./css/variables";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: $font-size;
+  background: $body-bg-color;
+  color:$font-color;
+  max-width: 1024px;
+  margin:auto;
+  word-break: break-all;
+}
+
+img {
+  border:0;
+  vertical-align: middle;
+}
+
+ul,li,ol {
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sidebar-mask {
+  position: fixed;
+  transform: translateZ(0);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  background: rgba($black-color,.7);
+}
+
+.list-wrap {
+  margin-top: $header-height;
+}
+
+.newsContent {
+  font-size: $font-size;
+  a {
+    color: inherit;
+  }
+  img {
+    max-width: 100%;
+  }
+  .headline,
+  .content-inner .question {
+    background: $white-color;
+    padding: $padding-space;
+  }
+  .content-inner {
+    .question{
+      margin-top: $padding-space / 2;
+    }
+    .avatar {
+      width: .533rem;
+      height: .533rem;
+      border-radius: .053rem;
+      margin-right: .133rem;
+    }
+    .author,
+    .bio {
+      vertical-align: middle;
+    }
+    .author {
+      font-weight: bold;
+    }
+    .bio {
+      color: $font-des-color;
+    }
+  }
+
+  .view-more a {
+    background: #e8e8e8;
+    padding: 0.2rem 0.3rem;
+    display: block;
+    text-align: center;
+  }
+  .content a {
+    color: $link-color;
+  }
+
+  blockquote {
+    color: $blockquote-color;
+    border-left: .08rem solid $blockquote-border-color;
+    font-style: normal;
+    display: block;
+    font-size: 100%;
+    margin: .5em 0;
+    padding: 0 0 0 1em;
+  }
+}
+
+.section-box {
+  background: $white-color;
+  a {
+    display: flex;
+    align-items: center;
+    margin: $padding-space;
+    color: inherit;
+    background: $border-color;
+    img {
+      width: 1.333rem;
+      height: 1.333rem;
+    }
+    .sectionName {
+      flex: 1;
+      margin:0 .2rem;
+    }
+    .arrow{
+      display: block;
+      width: .267rem;
+      height: .267rem;
+      border: solid #867e7a;
+      border-width: .027rem .027rem 0 0;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+      margin-right: .4rem;
+    }
+  }
+}

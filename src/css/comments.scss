@@ -1,0 +1,40 @@
+@import "variables";
+.comments-box {
+    background: $white-color;
+    .title {
+        border-bottom: 1px solid $border-color;
+        padding: $padding-space;
+        margin: 0;
+        font-size: $font-title-size;
+        font-weight: normal;
+    }
+    > ul {
+        padding: $padding-space;
+        > li {
+            border-bottom: 1px solid $border-color;
+            padding: $padding-space / 2;
+            .com-he{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            h2{
+                margin: 0;
+                font-size: $font-title-size;
+            }
+            .likesNum {
+                color: $font-des-color;
+            }
+            .body,
+            .date {
+                font-size: $font-size;
+                margin-left: $padding-space;
+            }
+            .date {
+                font-size: $font-des-size;
+                color: $font-des-color;
+            }
+        }
+    }
+    
+}

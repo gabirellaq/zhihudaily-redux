@@ -1,7 +1,7 @@
 import React from 'react';
 import { toggleSidebar } from '../redux/action';
 import { connect } from 'react-redux';
-import '../css/header.css';
+import '../css/header.scss';
 
 class HeaderIndex extends React.Component {
     title () {

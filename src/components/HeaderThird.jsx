@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/header.css';
+import '../css/header.scss';
 
 class HeaderThird extends React.Component {
     goBack() {

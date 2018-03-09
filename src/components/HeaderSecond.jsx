@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import filter from '../util/filter.js';
-import '../css/header.css';
+import '../css/header.scss';
 
 class HeaderSecond extends React.Component {
     goBack() {

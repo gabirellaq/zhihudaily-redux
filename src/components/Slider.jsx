@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../css/slider.css';
+import '../css/slider.scss';
 import filter from '../util/filter.js';
 import Swiper from 'swiper';
 window.Swiper = Swiper;
